@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+	--primary: #151515;
+	--secondary: #878787;
+	--tertiary: #FF954A;
+	--border: #EBEBEB;
+	--error: #FF4242;
+}
+
+* {
+	font-family: 'Hanken Grotesk', sans-serif;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+	padding: 0;
+	margin: 0;
+}
+
+#App {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	gap: 18px;
+}
+
+h1 {
+	font-size: 36px;
+	font-weight: 700;
+	color: var(--primary);
+}
+
+h3 {
+	font-size: 16px;
+	font-weight: 500;
+	color: var(--secondary);
+}
+
+.form-container {
+	display: flex;
+	width: 431px;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 48px;
+}
+
+.form-heading {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+}
+
+.input-container {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	gap: 10px;
+}
+
+.input-container input {
+	padding: 18px 24px;
+	border: 1px solid var(--border);
+	border-radius: 8px;
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.input-container label {
+	color: black;
+	font-weight: 500;
+}
+
+.input-container label span {
+	color: var(--error);
+}
+
+.tos-container {
+	display: flex;
+	gap: 11px;
+	align-items: center;
+}
+
+.tos-container input {
+	border-radius: 2px;
+	width: 20px;
+	height: 20px;
+}
+
+.hint {
+	font-size: 14px;
+	font-weight: 500;
+	color: var(--secondary);
+}
+
+.form-content {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	gap: 10px;
+}
+
+.button {
+	width: 100%;
+	padding: 18.5px;
+	font-size: 14px;
+	background-color: black;
+	color: white;
+	border-radius: 8px;
+	border: none;
+}
+
+.link {
+	font-size: 14px;
+	color: var(--tertiary);
+}
+
+.error-border {
+	border-color: var(--error) !important;
+}
+
+.error-message {
+	font-size: 14px;
+	color: var(--error);
+}
