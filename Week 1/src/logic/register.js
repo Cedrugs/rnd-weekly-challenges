@@ -1,6 +1,12 @@
-import { getUsers, saveUsers } from "../logic/users.js";
+import { getLoggedInUser, getUsers, saveUsers } from "../logic/users.js";
 
 export function setupRegister() {
+    const user = getLoggedInUser();
+
+    if (user !== null) {
+        history.pushState(null, "", "/welcome");
+        location.reload();
+    }
 
     const form = document.querySelector("form");
 
@@ -55,7 +61,7 @@ export function setupRegister() {
             valid = false;
         }
 
-        const existing = users.find((u) => u.email === email.value.trim())
+        const existing = users.find((u) => u.email === email.value.trim());
         if (existing) {
             emailError.textContent = "Email already registered";
             valid = false;

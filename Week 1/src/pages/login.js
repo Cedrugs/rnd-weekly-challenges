@@ -7,11 +7,13 @@ export const login = `
         <div class="form-content">
             <div class="input-container">
                 <label for="email">Email<span>*</span></label>
-                <input type="text" name="email" placeholder="johndoe@gmail.com">
+                <input type="text" name="email" placeholder="johndoe@gmail.com" id="email">
+                <span class="error-message" id="Email-Error"></span>
             </div>
             <div class="input-container">
                 <label for="password">Password<span>*</span></label>
-                <input type="password" placeholder="*******">
+                <input type="password" placeholder="*******" id="password">
+                <span class="error-message" id="Password-Error"></span>
             </div>
         </div>
         
