@@ -1,4 +1,4 @@
-# RnD Week 1 - Login & Register Page
+# Week 1 - Login & Register Page
 
 A simple web application for user registration and login built using Vanilla Vite (JS, HTML, CSS). This project serves as an educational demonstration of creating single-page applications (SPAs) with user authentication and form validation.
 
