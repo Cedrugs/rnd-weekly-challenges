@@ -22,6 +22,11 @@ The objective of this project is to apply fundamental React concepts such as com
 - **React** - A JavaScript library for building user interfaces.
 - **Vite** - A build tool that provides a fast development environment for modern web projects.
 
+## Screenshots
+
+1. **Home Page**
+![Home Page Screenshot](https://cdn-gcs.samuelcedric.com/rnd-weekly-challenges/Week%202/homepage.png)
+
 ## Installation
 
 1. Clone the repository:
